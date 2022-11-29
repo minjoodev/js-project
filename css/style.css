@@ -1,8 +1,7 @@
+
 .hidden {
     display: none;
-}
-.bg {
-    position: absolute;
-    left:0;
-    right:0;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
