@@ -12,14 +12,15 @@
     <script async src="js/quotes.js"></script>
     <script async src="js/background.js"></script>
     <script async src="js/todo.js"></script>
+    <script async src="js/weather.js"></script>
 </head>
 <body>
+    <h2 id="clock">00:00</h2>
     <form class="login-form hidden">
         <input type="text" maxlength="15" placeholder="What is your name?"/>
         <input type="submit" value="login"/>
     </form>
     <h1 id="greeting" class="hidden"></h1>
-    <h2 id="clock">00:00</h2>
     <div id="quote">
         <span></span>
         <span></span>
@@ -29,5 +30,8 @@
     </form>
     <ul id="todo-list">
     </ul>
+    <div id="weather">
+        <span></span>
+    </div>
 </body>
 </html>
